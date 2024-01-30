@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RuntimeFrameworkVersion>3.1.0</RuntimeFrameworkVersion>
+    <AssemblyName>TheBlockchainDB.Networks</AssemblyName>
+    <Authors>Blockcore</Authors>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\blockcore\src\Blockcore\Blockcore.csproj" />
+    <ProjectReference Include="..\..\blockcore\src\Features\Blockcore.Features.Consensus\Blockcore.Features.Consensus.csproj" />
+    <ProjectReference Include="..\..\blockcore\src\Features\Blockcore.Features.MemoryPool\Blockcore.Features.MemoryPool.csproj" />
+    <ProjectReference Include="..\..\blockcore\src\Features\Blockcore.Features.NodeHost\Blockcore.Features.NodeHost.csproj" />
+  </ItemGroup>
+
+</Project>

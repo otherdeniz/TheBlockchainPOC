@@ -141,11 +141,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blockcore.Networks.XRC", ".
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blockcore.Networks.HomeCoin", "..\blockcore\src\Networks\Blockcore.Networks.HomeCoin\Blockcore.Networks.HomeCoin.csproj", "{074057D3-A1BE-409D-B4B4-F01CFA434D58}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{72D1E288-F3B7-4B13-9CC3-B5CF2AB758FB}"
-	ProjectSection(SolutionItems) = preProject
-		Directory.Build.props = Directory.Build.props
-	EndProjectSection
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blockcore.Networks.SERF", "..\blockcore\src\Networks\Blockcore.Networks.SERF\Blockcore.Networks.SERF.csproj", "{921791B7-DE6B-4E27-BCA1-5C112E3B532C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blockcore.Networks.Cybits", "..\blockcore\src\Networks\BlockCore.Networks.Cybits\Blockcore.Networks.Cybits.csproj", "{2834DEF2-0CF7-4012-A73D-07F06256CC75}"
@@ -179,6 +174,10 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NBitcoin.TestFramework", "..\NBitcoin\NBitcoin.TestFramework\NBitcoin.TestFramework.csproj", "{59C155E0-05BE-4CAE-BFBC-091671CCF7D4}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NBitcoin.Tests", "..\NBitcoin\NBitcoin.Tests\NBitcoin.Tests.csproj", "{0595414E-06F3-4DEA-859B-C017D3E7E8ED}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheBlockchainDB", "TheBlockchainDB\TheBlockchainDB.csproj", "{7F907DBE-D638-4BEE-8026-B303808C8B33}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheBlockchainDB.Node", "TheBlockchainDB.Node\TheBlockchainDB.Node.csproj", "{987A65E2-9C7A-4472-B0E3-378AE2798A3D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -470,6 +469,14 @@ Global
 		{0595414E-06F3-4DEA-859B-C017D3E7E8ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0595414E-06F3-4DEA-859B-C017D3E7E8ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0595414E-06F3-4DEA-859B-C017D3E7E8ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F907DBE-D638-4BEE-8026-B303808C8B33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F907DBE-D638-4BEE-8026-B303808C8B33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F907DBE-D638-4BEE-8026-B303808C8B33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F907DBE-D638-4BEE-8026-B303808C8B33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{987A65E2-9C7A-4472-B0E3-378AE2798A3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{987A65E2-9C7A-4472-B0E3-378AE2798A3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{987A65E2-9C7A-4472-B0E3-378AE2798A3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{987A65E2-9C7A-4472-B0E3-378AE2798A3D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -541,7 +548,6 @@ Global
 		{9A2BA15A-C316-42B4-8E4D-E01B4873190C} = {3B56C02B-4468-4268-B797-851562789FCC}
 		{4615D1C6-14CD-47CA-8B78-A462A37057F6} = {3B56C02B-4468-4268-B797-851562789FCC}
 		{074057D3-A1BE-409D-B4B4-F01CFA434D58} = {3B56C02B-4468-4268-B797-851562789FCC}
-		{72D1E288-F3B7-4B13-9CC3-B5CF2AB758FB} = {DDC0291D-59AA-4717-B593-E323DD231821}
 		{921791B7-DE6B-4E27-BCA1-5C112E3B532C} = {3B56C02B-4468-4268-B797-851562789FCC}
 		{2834DEF2-0CF7-4012-A73D-07F06256CC75} = {3B56C02B-4468-4268-B797-851562789FCC}
 		{9C962CB5-A11B-47F1-A5D3-2AD2215CF100} = {3B56C02B-4468-4268-B797-851562789FCC}
