@@ -1,0 +1,9 @@
+[submodule "blockcore"]
+	path = blockcore
+	url = https://github.com/otherdeniz/blockcore
+[submodule "blockcore-tools"]
+	path = blockcore-tools
+	url = https://github.com/otherdeniz/blockcore-tools
+[submodule "NBitcoin"]
+	path = NBitcoin
+	url = https://github.com/otherdeniz/NBitcoin

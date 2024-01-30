@@ -1,0 +1,15 @@
+https://www.blockcore.net/create-chain
+
+dotnet new --install Blockcore.Coin.Template
+
+Name (no whitespace): BlockchainDB
+Ticker/Symbol: BDB
+Coin Type (HD index): 4127
+Genesis Text: Data should be a free asset for everyone
+Magic Header (Hex), must be unique pr. blockchain: 41-27-41-27
+Coin Address Prefix: 25   (https://en.bitcoin.it/wiki/List_of_address_prefixes) = "B"
+Script Address Prefix: 125 = "s"
+Secret Address Prefix: 117
+
+
+

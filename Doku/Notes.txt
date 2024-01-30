@@ -1,0 +1,4 @@
+added submodules
+git submodule add https://github.com/otherdeniz/blockcore
+git submodule add https://github.com/otherdeniz/blockcore-tools
+
