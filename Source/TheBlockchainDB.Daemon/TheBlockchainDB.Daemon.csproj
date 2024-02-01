@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\blockcore\src\Blockcore\Blockcore.csproj" />
+    <ProjectReference Include="..\..\blockcore\src\Features\Blockcore.Features.BlockStore\Blockcore.Features.BlockStore.csproj" />
+    <ProjectReference Include="..\..\blockcore\src\Features\Blockcore.Features.ColdStaking\Blockcore.Features.ColdStaking.csproj" />
+    <ProjectReference Include="..\..\blockcore\src\Features\Blockcore.Features.Consensus\Blockcore.Features.Consensus.csproj" />
+    <ProjectReference Include="..\..\blockcore\src\Features\Blockcore.Features.Diagnostic\Blockcore.Features.Diagnostic.csproj" />
+    <ProjectReference Include="..\..\blockcore\src\Features\Blockcore.Features.MemoryPool\Blockcore.Features.MemoryPool.csproj" />
+    <ProjectReference Include="..\..\blockcore\src\Features\Blockcore.Features.Miner\Blockcore.Features.Miner.csproj" />
+    <ProjectReference Include="..\..\blockcore\src\Features\Blockcore.Features.RPC\Blockcore.Features.RPC.csproj" />
+    <ProjectReference Include="..\..\blockcore\src\Features\Blockcore.Features.Wallet\Blockcore.Features.Wallet.csproj" />
+    <ProjectReference Include="..\..\blockcore\src\Features\Persistence\Blockcore.Features.Base.Persistence.LevelDb\Blockcore.Features.Base.Persistence.LevelDb.csproj" />
+    <ProjectReference Include="..\..\blockcore\src\Features\Persistence\Blockcore.Features.BlockStore.Persistence.LevelDb\Blockcore.Features.BlockStore.Persistence.LevelDb.csproj" />
+    <ProjectReference Include="..\..\blockcore\src\Features\Persistence\Blockcore.Features.Consensus.Persistence.LevelDb\Blockcore.Features.Consensus.Persistence.LevelDb.csproj" />
+    <ProjectReference Include="..\TheBlockchainDB\TheBlockchainDB.csproj" />
+  </ItemGroup>
+
+</Project>

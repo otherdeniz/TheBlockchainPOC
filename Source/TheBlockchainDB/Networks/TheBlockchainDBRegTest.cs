@@ -9,8 +9,9 @@ using Blockcore.P2P;
 using TheBlockchainDB.Networks.Policies;
 using TheBlockchainDB.Networks.Setup;
 using Blockcore.NBitcoin;
-using Blockcore.NBitcoin.BouncyCastle.Math;
+using Blockcore.NBitcoin.BouncyCastle.math;
 using Blockcore.NBitcoin.DataEncoders;
+using Blockcore.NBitcoin.Protocol;
 
 namespace TheBlockchainDB.Networks
 {
@@ -116,7 +117,7 @@ namespace TheBlockchainDB.Networks
 
          Checkpoints = network.Checkpoints;
          DNSSeeds = network.DNS.Select(dns => new DNSSeedData(dns, dns)).ToList();
-         SeedNodes = network.Nodes.Select(node => new NBitcoin.Protocol.NetworkAddress(IPAddress.Parse(node), network.DefaultPort)).ToList();
+         SeedNodes = network.Nodes.Select(node => new NetworkAddress(IPAddress.Parse(node), network.DefaultPort)).ToList();
 
          StandardScriptsRegistry = new TheBlockchainDBStandardScriptsRegistry();
 
